@@ -1,0 +1,178 @@
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+   
+    <script type='text/javascript'>
+
+     $(function() {
+
+	var chart;
+
+	var options = {
+
+		chart : {
+
+			type : 'polygon',
+
+			renderTo : 'container',
+
+		//zoomType:'x'
+
+		},
+
+		title : {
+
+
+
+			text : ''
+
+		},
+
+		yAxis : {
+
+			title : false,
+
+			gridLineWidth : 0,
+
+			lineWidth : 0,
+
+			labels : {
+
+				enabled : false
+
+			}
+
+		},
+
+
+
+		xAxis : {
+
+			title : false,
+
+			gridLineWidth : 0,
+
+			lineWidth : 0,
+
+			labels : {
+
+				enabled : false
+
+			}
+
+		},
+
+		plotOptions : {
+
+			series : {
+
+				lineWidth : 1,
+
+				lineColor : 'black'
+
+			}
+
+		},
+
+               
+
+		series : [ {} ]
+
+	};
+
+
+
+        $.getJSON('frontend/js/tmp/filename.json', function(filename) {
+
+               options.title.text=filename; 
+
+               var chart = new Highcharts.Chart(options);
+
+        });
+
+ 
+
+
+
+        $.getJSON("../../data100.json", function(data) {
+
+               options.series=data; 
+
+               var chart = new Highcharts.Chart(options);
+
+        });
+
+
+
+
+
+	var i = 100;
+
+	$("#plus").click(function() {
+
+		i += 10;
+
+		if (i > 100)
+
+			return false;
+
+		$.getJSON(options.title.text+'data' + i + '.json', function(data) {
+
+			options.series = data;
+
+			chart = new Highcharts.Chart(options);
+
+		});
+
+
+
+	});
+
+
+
+	$("#minus").click(function() {
+
+		i -= 10;
+
+		if (i < 10)
+
+			return false;
+
+		$.getJSON(options.title.text+'data' + i + '.json', function(data) {
+
+			options.series = data;
+
+			chart = new Highcharts.Chart(options);
+
+		});
+
+	});
+
+
+
+}); 
+
+    </script>
+
+  </head>
+
+  <body>
+
+   <div  id="container" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+
+   <br>
+
+   <button id ="plus">Zoom-Out</button>
+
+   <button id ="minus" >Zoom-In</button>
+
+   </body>
+
+
+
+</html>

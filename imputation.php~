@@ -1,0 +1,302 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+ 
+      <meta charset="utf-8">
+      <title>jQuery UI Tabs - Default functionality</title>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <style>
+      #tabs{
+  
+}
+
+#vartabs .ui-widget-header {
+  background-color: white;
+  background-image: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+#vartabs .ui-widget-content {
+  background-color: white;
+  background-image: none;
+
+}
+
+#vartabs .ui-corner-top,#tabs .ui-corner-bottom,#tabs .ui-corner-all{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+
+
+#vartabs .ui-state-default,
+#vartabs .ui-state-default a {
+  background-color: white;
+  text-align: center;
+}
+
+#vartabs .ui-state-default a {
+  width: herepx;
+}
+
+
+#vartabs .ui-tabs-active,
+#vartabs .ui-tabs-active a {
+  background-color: darkgray;
+  text-align: center;
+  
+}
+
+ </style>
+
+ <script>
+      $(function() {
+        $( "#vartabs" ).tabs();
+      });
+ </script>
+
+    </head>
+    <body>
+       
+        <?php
+       session_start();
+if (!isset($_SESSION['snpbin'])) { $_SESSION['snpbin'] = array(); }
+
+
+	require_once("canceromics/frontend.php");
+	require_once("canceromics/menuStructure.php");
+        require_once("backend/snipaTempdir.php");
+	$task = $_GET['task'];
+	
+	if(!isset($task) || $task=="" || !(in_array($task,$task_whitelist))){
+		$task = "home";
+		$contentboxtext = "Canceromics - an interactive tool for analysing and visualizing metaboloon data ";                //Title changed
+	} 
+       
+	$addheader = "";
+	if(($task == "proxy_search") || ($task == "pairwise_ld") ) {
+		$addheader = '
+		<script type="text/javascript" src="frontend/js/DataTables-1.9.4/media/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="frontend/js/DataTables-1.9.4/extras/Scroller/media/js/dataTables.scroller.min.js"></script>
+		<script type="text/javascript" src="frontend/js/DataTables-1.9.4/extras/FixedColumns/js/dataTables.fixedColumns.min.js"></script>
+		<script type="text/javascript" src="frontend/js/DataTables-1.9.4/extras/SortFormattedNumbers/js/dataTables.formattedNumbers.js"></script>
+		<style type="text/css" title="currentStyle">
+			@import "frontend/css/jquery.dataTables.css";
+		</style>
+		<style type="text/css" title="currentStyle">
+			@import "frontend/js/DataTables-1.9.4/extras/FixedColumns/css/dataTables.fixedColumns.min.css";
+		</style>
+		<script type="text/javascript" src="frontend/js/proxy_search.js"></script>';
+	}
+	
+	if($task == "snp_annotation") {
+		$addheader = 
+		'
+		<script type="text/javascript" src="frontend/js/snp_annotation.js"></script>
+		';
+	}
+    
+	if($task == "block_annotation") {
+		$addheader = 
+		'
+		<script type="text/javascript" src="frontend/js/block_annotation.js"></script>
+		';
+	}
+      
+	
+	if($task == "regional_association_plot") {
+		$addheader = 
+		'
+		<script type="text/javascript" src="frontend/js/regional_association_plot.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts-more.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/exporting.src.js"></script>
+		
+		';
+	}
+
+	if($task == "ld_plot") {
+		$addheader = 
+		'
+                <script src="http://code.highcharts.com/highcharts.js"></script>
+                <script src="https://rawgit.com/highslide-software/highcharts.com/master/js/modules/boost.src.js"></script>
+                <script src="http://code.highcharts.com/highcharts-more.js"></script>
+                <script src="http://code.highcharts.com/modules/heatmap.js"></script>
+                <script src="http://code.highcharts.com/modules/exporting.js"></script>
+		<script type="text/javascript" src="frontend/js/ld_plot.js"></script>
+		';
+	} 
+	
+	if($task == "association_maps") {
+		$addheader = 
+		'
+		<script type="text/javascript" src="frontend/js/association_maps.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts-more.js"></script>
+		';
+	} 
+	
+	if($task == "variant_browser") {
+		$addheader = 
+		'
+		<script type="text/javascript" src="frontend/js/variant_browser.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts-more.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/exporting.src.js"></script>
+		';
+	} 
+	
+	if($task == "documentation") {
+		$addheader = 
+		'
+		<link href="frontend/js/video-js/video-js.min.css" rel="stylesheet">
+		<script src="frontend/js/video-js/video.js"></script>
+		<script>
+		  videojs.options.flash.swf = "frontend/js/video-js/video-js.swf"
+		</script>
+		<script type="text/javascript" src="frontend/js/documentation.js"></script>
+		';
+	} 
+        if($task == "summary") {
+                $addheader =
+                '
+                <script type="text/javascript" src="frontend/js/variant_browser.js"></script>
+                <script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts.js"></script>
+                <script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts-more.js"></script>
+                <script type="text/javascript" src="frontend/js/highcharts-3.0.9/exporting.src.js"></script>
+                ';
+        }
+
+	
+        if($task == "ld_plot")
+        {
+	   frontendHTMLHeader("GenoQ - a single nucleotide polymorphisms annotator and browser",$addheader,"1");                    //** Title Changed
+	} else {
+           frontendHTMLHeader("GenoQ - a single nucleotide polymorphisms annotator and browser",$addheader,"0");
+        }
+        frontendPageHeader(".");
+	frontendPageNavigationStart();
+	//frontendPageNavigationBox($menuBrowser,"Browse",$task);
+	frontendPageNavigationBox($menuAnnotation,"Normalization",$task);
+	//frontendPageNavigationBox($menuPlot,"Plots",$task);
+	//frontendPageNavigationBox($menuSearch,"Linkage Disequilibrium",$task);
+	frontendPageNavigationBox($menuHelp,"Help",$task);
+        //frontendPageNavigationBox($menuDownload,"Download",$task); 
+	include("frontend/frontendPageNavigationSNPPastebin.php");
+
+	frontendPageNavigationEnd();
+
+	frontendPageContentStart($contentboxtext);
+       
+        ?>
+<div id="vartabs">
+      <ul>
+        <li><a href="#tabs-1" style="font-family: Arial; font-size: 10pt;">Summary</a></li>
+        <li><a href="#tabs-3" style="font-family: Arial; font-size: 10pt;">Frequency Plot</a></li>
+      </ul>
+      
+      <div id="tabs-1">
+        <br>
+        <table id="summary-table"  cellpadding="0" cellspacing="0" border="1" style="width:100%;">
+         <tr bgcolor="silver"  valign="top">
+         <th width="60" height="40"></th>
+         <th width="60" height="40" ><font color="white">SNP Effect</font></th>
+         <th width="50" height="40" ><font color="white">Qatar</font></th>
+         <th width="60" height="40"><font color="white">1000 Genome</font></th>
+         <th width="80" height="40"><font color="white">Common between Qatar & 1000 Genome</font></th>
+         <th width="40" height="40"><font color="white">dbSNP</font></th>
+         <th width="70" height="40"><font color="white">Common between dbSNP & GenoQ</font></th>
+        </tr></table>	   	
+      </div>
+     
+      <div id="tabs-3">
+        <br><br>
+        <div id=includedContent style=width: '100px'; height: '50px'; margin: 0 auto></div>
+      </div>
+</div>
+
+
+<!----convert below into class ---->
+<script>
+      $("#movetovtable1").click(function() {
+        $("#vartabs").tabs("option", "active", 1);
+      });
+      
+       $("#movetovtable2").click(function() {
+        $("#vartabs").tabs("option", "active", 1);
+      });
+       $("#movetovtable3").click(function() {
+        $("#vartabs").tabs("option", "active", 1);
+      });
+      
+       $("#movetovtable4").click(function() {
+        $("#vartabs").tabs("option", "active", 1);
+      });
+       $("#movetovtable5").click(function() {
+        $("#vartabs").tabs("option", "active", 1);
+      });
+      
+       $("#movetovtable6").click(function() {
+        $("#vartabs").tabs("option", "active", 1);
+      });
+       $("#movetovtable7").click(function() {
+        $("#vartabs").tabs("option", "active", 1);
+      });
+
+</script>
+
+<iframe id="container"> </ iframe>
+        <form action="normalize.php" method="post">
+      <table><tr> <td rowspan="368"> 
+      <img src="data.png" alt="Smiley face" height="700" width="400"></td>
+      <td></td>
+      
+          </tr>
+          </table>
+            <table>
+             <?php
+               $file = fopen("summary.txt", "r");
+               $i=0;
+            while(!feof($file)){
+                  $line = fgets($file);
+                  if($line){
+                        if($i){
+                            $missingscore = explode("\t", $line);
+                            
+                            echo "<tr>";
+                            for ($k=1; $k<sizeof($missingscore);$k++)
+                            {
+                               echo "<td>".$missingscore[$k]."</td>";
+                            }
+                            echo "<td><input type='checkbox' name='products[]' value='".$missingscore[0]."'></td>";
+                            echo"</tr>";
+                     
+                        }
+                  }
+                 $i++;
+                  
+            }
+            fclose($file);
+           ?>
+                </table>
+            
+            <input type="submit" name="normalize">        
+</form>
+        <?php
+frontendPageContentEnd();
+frontendPageFooter("May 12, 2016");
+frontendHTMLFooter();
+?>
+        
+
+ </body>
+</html>

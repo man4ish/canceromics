@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>SNP Distribution</title>
+ <!-- <script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+ -->  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+  <style type='text/css'>
+    
+  </style>
+  
+
+
+<script type='text/javascript'>//<![CDATA[ 
+
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: 1,//null,
+            plotShadow: false
+        },
+        title: {
+            text: ''
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                showInLegend: true,
+                dataLabels: {
+                    enabled: false,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'red'
+                    },
+                showInLegend: true
+                }
+            }
+        },
+
+        series: [{
+            type: 'pie',
+            name: 'SNPs',
+            data: [
+                ['Downrstream',   24.1095890],
+                ['Intron',    46.3013699],
+                ['Non Synonymous', 2.1917808],     
+                ['Synonymous',   3.2876712],
+                ['Upstream',    21.6438356],
+                ['UTR-3', 1.9178082], 
+                ['UTR-5', 0.5479452]                 
+            ]
+        }]
+    });
+});
+
+
+//]]>  
+
+</script>
+
+
+</head>
+<body>
+
+<div id="container" style="width: 400px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+</body>
+</html>
+
+

@@ -1,0 +1,392 @@
+"Total"	"5uM_10h"	"10uM_10h"	"UT_24h"	"Veh_24h"	"10uM_24h"	"Veh_48h"	"5uM_48h"	"Veh_72h"
+"1,2-dilinoleoyl-GPC (18:2/18:2)"	17	1	5	0	1	2	3	3	2
+"1,2-dioleoyl-GPC (18:1/18:1)*"	0	0	0	0	0	0	0	0	0
+"1,2-dioleoyl-GPE (18:1/18:1)"	0	0	0	0	0	0	0	0	0
+"1,2-dioleoyl-GPI (18:1/18:1)"	0	0	0	0	0	0	0	0	0
+"1,2-dipalmitoleoyl-GPC (16:1/16:1)*"	0	0	0	0	0	0	0	0	0
+"1,2-dipalmitoyl-GPC (16:0/16:0)"	0	0	0	0	0	0	0	0	0
+"1,2-distearoyl-GPC (18:0/18:0)"	22	6	6	2	2	5	0	1	0
+"1,2-distearoyl-GPG (18:0/18:0)"	13	5	1	0	1	4	0	2	0
+"1-(1-enyl-oleoyl)-2-oleoyl-GPE (P-18:1/18:1)*"	16	1	1	3	3	2	3	2	1
+"1-(1-enyl-oleoyl)-GPE (P-18:1)*"	16	6	5	1	3	1	0	0	0
+"1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)*"	0	0	0	0	0	0	0	0	0
+"1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)*"	0	0	0	0	0	0	0	0	0
+"1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (P-16:0/18:2)*"	6	2	1	1	0	1	0	1	0
+"1-(1-enyl-palmitoyl)-2-oleoyl-GPC (P-16:0/18:1)*"	0	0	0	0	0	0	0	0	0
+"1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)*"	0	0	0	0	0	0	0	0	0
+"1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1)*"	0	0	0	0	0	0	0	0	0
+"1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0)*"	0	0	0	0	0	0	0	0	0
+"1-(1-enyl-palmitoyl)-GPE (P-16:0)*"	1	0	1	0	0	0	0	0	0
+"1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)*"	0	0	0	0	0	0	0	0	0
+"1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)*"	30	6	3	5	4	2	4	4	2
+"1-(1-enyl-stearoyl)-2-oleoyl-GPE (P-18:0/18:1)"	1	0	0	0	1	0	0	0	0
+"1-(1-enyl-stearoyl)-GPE (P-18:0)*"	0	0	0	0	0	0	0	0	0
+"1-arachidonoyl-GPA (20:4)"	8	1	3	0	0	0	1	2	1
+"1-arachidonoyl-GPC (20:4n6)*"	0	0	0	0	0	0	0	0	0
+"1-arachidonoyl-GPE (20:4n6)*"	0	0	0	0	0	0	0	0	0
+"1-arachidonoyl-GPI (20:4)*"	13	3	6	1	3	0	0	0	0
+"1-arachidonylglycerol (20:4)"	2	0	0	0	0	0	2	0	0
+"1-dihomo-linolenylglycerol (20:3)"	4	1	0	0	1	0	1	0	1
+"1-docosahexaenoylglycerol (22:6)"	9	0	2	0	2	0	2	2	1
+"1-lignoceroyl-GPC (24:0)"	24	4	5	6	6	1	2	0	0
+"1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)*"	0	0	0	0	0	0	0	0	0
+"1-linoleoyl-2-arachidonoyl-GPE (18:2/20:4)*"	0	0	0	0	0	0	0	0	0
+"1-linoleoyl-GPC (18:2)"	0	0	0	0	0	0	0	0	0
+"1-linoleoyl-GPE (18:2)*"	22	5	6	0	2	0	4	4	1
+"1-linoleoylglycerol (18:2)"	12	0	1	5	1	3	1	0	1
+"1-methylhistidine"	0	0	0	0	0	0	0	0	0
+"1-methylimidazoleacetate"	3	0	0	1	0	1	0	1	0
+"1-methylnicotinamide"	0	0	0	0	0	0	0	0	0
+"1-myristoylglycerol (14:0)"	4	1	1	1	0	1	0	0	0
+"1-oleoyl-2-linoleoyl-GPC (18:1/18:2)*"	0	0	0	0	0	0	0	0	0
+"1-oleoyl-2-linoleoyl-GPE (18:1/18:2)*"	0	0	0	0	0	0	0	0	0
+"1-oleoyl-GPC (18:1)"	0	0	0	0	0	0	0	0	0
+"1-oleoyl-GPE (18:1)"	0	0	0	0	0	0	0	0	0
+"1-oleoyl-GPI (18:1)*"	5	1	1	0	3	0	0	0	0
+"1-oleoyl-GPS (18:1)"	1	0	0	0	1	0	0	0	0
+"1-palmitoleoyl-GPC (16:1)*"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4)"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-2-arachidonoyl-GPE (16:0/20:4)*"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-2-arachidonoyl-GPI (16:0/20:4)*"	1	0	0	1	0	0	0	0	0
+"1-palmitoyl-2-linoleoyl-GPC (16:0/18:2)"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-2-linoleoyl-GPE (16:0/18:2)"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-2-oleoyl-GPC (16:0/18:1)"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-2-oleoyl-GPE (16:0/18:1)"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-2-oleoyl-GPG (16:0/18:1)"	2	0	0	0	0	2	0	0	0
+"1-palmitoyl-2-oleoyl-GPS (16:0/18:1)"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)*"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-2-stearoyl-GPC (16:0/18:0)"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-GPC (16:0)"	0	0	0	0	0	0	0	0	0
+"1-palmitoyl-GPE (16:0)"	4	1	2	0	0	0	0	1	0
+"1-palmitoylglycerol (16:0)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-arachidonoyl-GPC (18:0/20:4)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-arachidonoyl-GPE (18:0/20:4)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-arachidonoyl-GPI (18:0/20:4)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-arachidonoyl-GPS (18:0/20:4)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-linoleoyl-GPC (18:0/18:2)*"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-linoleoyl-GPE (18:0/18:2)*"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-oleoyl-GPC (18:0/18:1)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-oleoyl-GPE (18:0/18:1)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-oleoyl-GPI (18:0/18:1)*"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-2-oleoyl-GPS (18:0/18:1)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-GPC (18:0)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-GPE (18:0)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-GPG (18:0)"	36	6	6	6	6	6	1	5	0
+"1-stearoyl-GPI (18:0)"	0	0	0	0	0	0	0	0	0
+"1-stearoyl-GPS (18:0)*"	1	0	0	0	1	0	0	0	0
+"2'-deoxyadenosine"	0	0	0	0	0	0	0	0	0
+"2'-deoxycytidine"	17	3	4	0	1	3	1	5	0
+"2-aminoadipate"	8	2	2	0	2	2	0	0	0
+"2-hydroxyadipate"	9	2	2	1	1	2	1	0	0
+"2-hydroxyglutarate"	0	0	0	0	0	0	0	0	0
+"2-methylbutyrylcarnitine (C5)"	0	0	0	0	0	0	0	0	0
+"2-methylcitrate/homocitrate"	0	0	0	0	0	0	0	0	0
+"2-palmitoyl-GPC (16:0)*"	0	0	0	0	0	0	0	0	0
+"2-stearoyl-GPE (18:0)*"	13	4	4	1	3	1	0	0	0
+"3-(4-hydroxyphenyl)lactate"	1	0	0	0	1	0	0	0	0
+"3-hydroxy-3-methylglutarate"	0	0	0	0	0	0	0	0	0
+"3-hydroxybutyrylcarnitine (1)"	22	5	2	1	4	4	4	2	0
+"3-hydroxybutyrylcarnitine (2)"	29	6	4	2	4	5	4	4	0
+"3-hydroxydecanoate"	14	0	3	2	2	2	3	0	2
+"3-methyl-2-oxobutyrate"	24	6	6	2	3	5	1	1	0
+"3-methyl-2-oxovalerate"	13	4	5	0	2	2	0	0	0
+"3-methylhistidine"	25	6	5	2	4	4	1	3	0
+"3-phosphoglycerate"	0	0	0	0	0	0	0	0	0
+"3-ureidopropionate"	0	0	0	0	0	0	0	0	0
+"4-acetamidobutanoate"	0	0	0	0	0	0	0	0	0
+"4-guanidinobutanoate"	0	0	0	0	0	0	0	0	0
+"4-hydroxy-nonenal-glutathione"	0	0	0	0	0	0	0	0	0
+"4-hydroxyglutamate"	9	3	1	1	1	0	0	2	1
+"4-imidazoleacetate"	0	0	0	0	0	0	0	0	0
+"4-methyl-2-oxopentanoate"	4	1	1	0	0	2	0	0	0
+"5-aminovalerate"	7	2	2	0	1	0	1	1	0
+"5-hydroxyindoleacetate"	9	0	0	2	3	1	1	1	1
+"5-methylthioadenosine (MTA)"	0	0	0	0	0	0	0	0	0
+"5-oxoproline"	0	0	0	0	0	0	0	0	0
+"5-phosphoribosyl diphosphate (PRPP)"	11	4	5	0	1	1	0	0	0
+"6-oxopiperidine-2-carboxylic acid"	21	5	3	2	2	4	1	3	1
+"6-phosphogluconate"	0	0	0	0	0	0	0	0	0
+"acetyl CoA"	21	3	1	5	5	0	3	2	2
+"acetylcarnitine"	0	0	0	0	0	0	0	0	0
+"aconitate [cis or trans]"	0	0	0	0	0	0	0	0	0
+"adenine"	0	0	0	0	0	0	0	0	0
+"adenosine"	0	0	0	0	0	0	0	0	0
+"adenosine 3',5'-cyclic monophosphate (cAMP)"	3	2	0	0	1	0	0	0	0
+"adenosine 5'-diphosphate (ADP)"	0	0	0	0	0	0	0	0	0
+"adenosine 5'-diphosphoribose (ADP-ribose)"	0	0	0	0	0	0	0	0	0
+"adenosine 5'-monophosphate (AMP)"	0	0	0	0	0	0	0	0	0
+"AICA ribonucleotide"	27	6	6	6	3	6	0	0	0
+"alanine"	0	0	0	0	0	0	0	0	0
+"alanylleucine"	13	2	2	1	3	1	2	1	1
+"allantoin"	0	0	0	0	0	0	0	0	0
+"alpha-ketoglutarate"	0	0	0	0	0	0	0	0	0
+"arabitol/xylitol"	5	1	0	1	1	1	0	0	1
+"arabonate/xylonate"	19	3	4	3	2	2	2	2	1
+"arachidonate (20:4n6)"	0	0	0	0	0	0	0	0	0
+"arginine"	0	0	0	0	0	0	0	0	0
+"argininosuccinate"	0	0	0	0	0	0	0	0	0
+"asparagine"	0	0	0	0	0	0	0	0	0
+"aspartate"	0	0	0	0	0	0	0	0	0
+"behenoyl sphingomyelin (d18:1/22:0)*"	0	0	0	0	0	0	0	0	0
+"benzoate"	0	0	0	0	0	0	0	0	0
+"beta-guanidinopropanoate"	1	0	0	0	0	0	1	0	0
+"betaine"	2	0	1	0	0	1	0	0	0
+"biotin"	0	0	0	0	0	0	0	0	0
+"butyrylcarnitine"	0	0	0	0	0	0	0	0	0
+"C-glycosyltryptophan"	0	0	0	0	0	0	0	0	0
+"cadaverine"	22	0	0	0	2	3	5	6	6
+"carboxyethyl-GABA"	0	0	0	0	0	0	0	0	0
+"carnitine"	0	0	0	0	0	0	0	0	0
+"carnosine"	0	0	0	0	0	0	0	0	0
+"cholesterol"	0	0	0	0	0	0	0	0	0
+"choline"	0	0	0	0	0	0	0	0	0
+"choline phosphate"	0	0	0	0	0	0	0	0	0
+"citrate"	0	0	0	0	0	0	0	0	0
+"coenzyme A"	0	0	0	0	0	0	0	0	0
+"creatine"	0	0	0	0	0	0	0	0	0
+"creatine phosphate"	0	0	0	0	0	0	0	0	0
+"creatinine"	0	0	0	0	0	0	0	0	0
+"cysteine"	0	0	0	0	0	0	0	0	0
+"cysteinylglycine"	2	0	2	0	0	0	0	0	0
+"cytidine"	16	6	1	2	3	0	2	2	0
+"cytidine 5'-diphosphocholine"	21	5	5	4	4	0	1	1	1
+"cytidine 5'-monophosphate (5'-CMP)"	0	0	0	0	0	0	0	0	0
+"cytidine 5'-monophospho-N-acetylneuraminic acid"	0	0	0	0	0	0	0	0	0
+"cytidine diphosphate"	0	0	0	0	0	0	0	0	0
+"cytidine triphosphate"	0	0	0	0	0	0	0	0	0
+"deoxycarnitine"	0	0	0	0	0	0	0	0	0
+"dihydroxyacetone phosphate (DHAP)"	2	1	1	0	0	0	0	0	0
+"dimethylarginine (SDMA + ADMA)"	21	6	5	1	4	1	1	3	0
+"dimethylglycine"	28	5	4	2	3	5	2	3	4
+"docosahexaenoate (DHA; 22:6n3)"	0	0	0	0	0	0	0	0	0
+"docosapentaenoate (n3 DPA; 22:5n3)"	9	2	1	0	1	0	2	3	0
+"eicosapentaenoate (EPA; 20:5n3)"	0	0	0	0	0	0	0	0	0
+"ergothioneine"	3	1	1	0	0	1	0	0	0
+"erythritol"	0	0	0	0	0	0	0	0	0
+"erythronate*"	0	0	0	0	0	0	0	0	0
+"ethylmalonate"	11	6	4	0	0	0	0	1	0
+"flavin adenine dinucleotide (FAD)"	0	0	0	0	0	0	0	0	0
+"fructose"	0	0	0	0	0	0	0	0	0
+"fumarate"	0	0	0	0	0	0	0	0	0
+"galactonate"	15	3	3	0	2	4	1	2	0
+"gamma-aminobutyrate (GABA)"	0	0	0	0	0	0	0	0	0
+"gamma-carboxyglutamate"	2	0	1	0	1	0	0	0	0
+"gamma-glutamyl-epsilon-lysine"	0	0	0	0	0	0	0	0	0
+"gamma-glutamylcysteine"	4	0	0	1	0	0	1	1	1
+"gamma-glutamylglutamate"	0	0	0	0	0	0	0	0	0
+"gamma-glutamylglutamine"	5	0	1	0	3	0	0	1	0
+"gamma-glutamylisoleucine*"	1	1	0	0	0	0	0	0	0
+"gamma-glutamylleucine"	9	2	1	1	3	0	0	2	0
+"gamma-glutamylthreonine*"	0	0	0	0	0	0	0	0	0
+"gamma-glutamylvaline"	3	2	0	0	0	1	0	0	0
+"gluconate"	6	1	1	0	0	1	1	2	0
+"glucose"	0	0	0	0	0	0	0	0	0
+"glucuronate"	1	0	0	0	0	1	0	0	0
+"glutamate"	0	0	0	0	0	0	0	0	0
+"glutamate, gamma-methyl ester"	1	0	0	0	1	0	0	0	0
+"glutamine"	0	0	0	0	0	0	0	0	0
+"glutarate (pentanedioate)"	1	1	0	0	0	0	0	0	0
+"glutathione, oxidized (GSSG)"	0	0	0	0	0	0	0	0	0
+"glutathione, reduced (GSH)"	0	0	0	0	0	0	0	0	0
+"glycerate"	0	0	0	0	0	0	0	0	0
+"glycerol"	17	3	3	0	3	3	2	3	0
+"glycerol 3-phosphate"	0	0	0	0	0	0	0	0	0
+"glycerophosphoethanolamine"	0	0	0	0	0	0	0	0	0
+"glycerophosphoglycerol"	0	0	0	0	0	0	0	0	0
+"glycerophosphoinositol*"	0	0	0	0	0	0	0	0	0
+"glycerophosphorylcholine (GPC)"	0	0	0	0	0	0	0	0	0
+"glycine"	0	0	0	0	0	0	0	0	0
+"glycosyl-N-palmitoyl-sphingosine"	0	0	0	0	0	0	0	0	0
+"guanine"	7	0	0	1	0	0	3	2	1
+"guanosine"	1	0	0	0	0	1	0	0	0
+"guanosine 5'- monophosphate (5'-GMP)"	0	0	0	0	0	0	0	0	0
+"guanosine 5'-diphospho-fucose"	0	0	0	0	0	0	0	0	0
+"guanosine 5'-triphosphate"	16	2	3	3	4	1	1	2	0
+"gulonic acid*"	0	0	0	0	0	0	0	0	0
+"HEPES"	0	0	0	0	0	0	0	0	0
+"heptanoate (7:0)"	3	0	0	1	1	0	0	0	1
+"hexanoylcarnitine"	3	0	0	0	0	0	2	0	1
+"hippurate"	0	0	0	0	0	0	0	0	0
+"histidine"	0	0	0	0	0	0	0	0	0
+"homoarginine"	2	1	0	1	0	0	0	0	0
+"homostachydrine*"	0	0	0	0	0	0	0	0	0
+"hypotaurine"	0	0	0	0	0	0	0	0	0
+"imidazole lactate"	18	4	3	1	2	3	2	3	0
+"imidazole propionate"	2	1	0	0	0	1	0	0	0
+"inosine"	6	2	0	1	1	1	1	0	0
+"Isobar: fructose 1,6-diphosphate, glucose 1,6-diphosphate, myo-inositol 1,4 or 1,3-diphosphate"	0	0	0	0	0	0	0	0	0
+"isobutyrylcarnitine"	7	1	1	1	1	2	1	0	0
+"isocitrate"	0	0	0	0	0	0	0	0	0
+"isoleucine"	0	0	0	0	0	0	0	0	0
+"isovalerylcarnitine"	0	0	0	0	0	0	0	0	0
+"kynurenine"	1	0	0	0	1	0	0	0	0
+"lactate"	0	0	0	0	0	0	0	0	0
+"lactosyl-N-palmitoyl-sphingosine"	5	0	0	1	0	0	2	0	2
+"laurylcarnitine"	4	0	0	0	3	0	0	1	0
+"leucine"	0	0	0	0	0	0	0	0	0
+"linoleamide (18:2n6)"	0	0	0	0	0	0	0	0	0
+"lysine"	0	0	0	0	0	0	0	0	0
+"malate"	0	0	0	0	0	0	0	0	0
+"malonate"	0	0	0	0	0	0	0	0	0
+"malonylcarnitine"	8	2	1	0	3	1	0	1	0
+"mannitol/sorbitol"	0	0	0	0	0	0	0	0	0
+"methionine"	0	0	0	0	0	0	0	0	0
+"methionine sulfone"	1	0	1	0	0	0	0	0	0
+"methionine sulfoxide"	0	0	0	0	0	0	0	0	0
+"methylphosphate"	0	0	0	0	0	0	0	0	0
+"myo-inositol"	0	0	0	0	0	0	0	0	0
+"myristoleoylcarnitine*"	9	0	0	0	0	0	3	3	3
+"myristoyl sulfate"	0	0	0	0	0	0	0	0	0
+"myristoylcarnitine"	0	0	0	0	0	0	0	0	0
+"N-acetyl-aspartyl-glutamate (NAAG)"	0	0	0	0	0	0	0	0	0
+"N-acetylalanine"	0	0	0	0	0	0	0	0	0
+"N-acetylarginine"	2	1	0	1	0	0	0	0	0
+"N-acetylasparagine"	8	1	0	0	3	2	1	0	1
+"N-acetylaspartate (NAA)"	0	0	0	0	0	0	0	0	0
+"N-acetylglucosamine/N-acetylgalactosamine"	0	0	0	0	0	0	0	0	0
+"N-acetylglucosaminylasparagine "	0	0	0	0	0	0	0	0	0
+"N-acetylglutamate"	0	0	0	0	0	0	0	0	0
+"N-acetylglutamine"	0	0	0	0	0	0	0	0	0
+"N-acetylhistidine"	12	5	2	1	2	0	1	1	0
+"N-acetylmethionine"	0	0	0	0	0	0	0	0	0
+"N-acetylmethionine sulfoxide"	21	5	6	6	3	0	1	0	0
+"N-acetylneuraminate"	0	0	0	0	0	0	0	0	0
+"N-acetylphenylalanine"	14	1	3	1	3	1	2	1	2
+"N-acetylputrescine"	0	0	0	0	0	0	0	0	0
+"N-acetylserine"	0	0	0	0	0	0	0	0	0
+"N-acetyltaurine"	0	0	0	0	0	0	0	0	0
+"N-acetylthreonine"	0	0	0	0	0	0	0	0	0
+"N-acetylvaline"	27	6	5	5	4	4	2	1	0
+"N-carbamoylaspartate"	0	0	0	0	0	0	0	0	0
+"N-delta-acetylornithine"	26	6	5	2	2	5	3	2	1
+"N-formylmethionine"	0	0	0	0	0	0	0	0	0
+"N-glycolylneuraminate"	23	6	4	2	4	1	3	2	1
+"N-methylproline"	7	2	2	0	2	1	0	0	0
+"N-palmitoyl-sphingosine (d18:1/16:0)"	0	0	0	0	0	0	0	0	0
+"N-stearoyltaurine"	14	3	5	1	3	1	1	0	0
+"N2-acetyllysine/N6-acetyllysine"	7	2	0	0	2	2	1	0	0
+"N6,N6,N6-trimethyllysine"	0	0	0	0	0	0	0	0	0
+"nicotinamide"	0	0	0	0	0	0	0	0	0
+"nicotinamide adenine dinucleotide (NAD+)"	0	0	0	0	0	0	0	0	0
+"nicotinamide adenine dinucleotide reduced (NADH)"	0	0	0	0	0	0	0	0	0
+"nicotinamide ribonucleotide (NMN)"	3	1	1	0	1	0	0	0	0
+"nicotinamide riboside"	0	0	0	0	0	0	0	0	0
+"O-methyltyrosine"	0	0	0	0	0	0	0	0	0
+"octanoylcarnitine"	11	0	0	2	3	0	3	3	0
+"oleamide"	0	0	0	0	0	0	0	0	0
+"oleoylcarnitine"	0	0	0	0	0	0	0	0	0
+"ophthalmate"	7	1	1	0	2	1	0	2	0
+"ornithine"	0	0	0	0	0	0	0	0	0
+"orotate"	0	0	0	0	0	0	0	0	0
+"orotidine"	0	0	0	0	0	0	0	0	0
+"palmitic amide"	0	0	0	0	0	0	0	0	0
+"palmitoleoylcarnitine*"	2	0	0	0	0	0	2	0	0
+"palmitoyl dihydrosphingomyelin (d18:0/16:0)*"	0	0	0	0	0	0	0	0	0
+"palmitoyl sphingomyelin (d18:1/16:0)"	0	0	0	0	0	0	0	0	0
+"palmitoylcarnitine"	0	0	0	0	0	0	0	0	0
+"pantothenate"	0	0	0	0	0	0	0	0	0
+"penicillin G"	0	0	0	0	0	0	0	0	0
+"phenol red"	0	0	0	0	0	0	0	0	0
+"phenol sulfate"	1	0	0	1	0	0	0	0	0
+"phenylacetylglycine"	0	0	0	0	0	0	0	0	0
+"phenylalanine"	0	0	0	0	0	0	0	0	0
+"phosphate"	0	0	0	0	0	0	0	0	0
+"phosphoenolpyruvate (PEP)"	0	0	0	0	0	0	0	0	0
+"phosphoethanolamine"	0	0	0	0	0	0	0	0	0
+"pipecolate"	16	3	2	1	4	1	2	2	1
+"piperidine"	0	0	0	0	0	0	0	0	0
+"proline"	0	0	0	0	0	0	0	0	0
+"propionylcarnitine"	0	0	0	0	0	0	0	0	0
+"pterin"	11	3	1	1	3	0	1	2	0
+"putrescine"	0	0	0	0	0	0	0	0	0
+"pyridoxal"	0	0	0	0	0	0	0	0	0
+"pyridoxal phosphate"	11	4	4	0	0	0	1	2	0
+"pyridoxamine"	0	0	0	0	0	0	0	0	0
+"pyridoxamine phosphate"	12	2	5	2	0	2	1	0	0
+"pyridoxine (Vitamin B6)"	0	0	0	0	0	0	0	0	0
+"pyroglutamine*"	1	0	0	0	1	0	0	0	0
+"pyruvate"	0	0	0	0	0	0	0	0	0
+"ribitol"	4	1	0	1	1	0	0	0	1
+"ribonate"	0	0	0	0	0	0	0	0	0
+"S-1-pyrroline-5-carboxylate"	9	1	2	1	2	1	0	2	0
+"S-adenosylhomocysteine (SAH)"	0	0	0	0	0	0	0	0	0
+"S-adenosylmethionine (SAM)"	6	0	4	0	1	1	0	0	0
+"S-lactoylglutathione"	0	0	0	0	0	0	0	0	0
+"S-methylglutathione"	2	0	2	0	0	0	0	0	0
+"S-nitrosoglutathione (GSNO)"	1	0	0	0	0	0	1	0	0
+"salicylate"	0	0	0	0	0	0	0	0	0
+"sedoheptulose-7-phosphate"	2	1	0	0	0	0	1	0	0
+"serine"	0	0	0	0	0	0	0	0	0
+"serotonin"	9	1	0	2	2	1	1	2	0
+"spermidine"	0	0	0	0	0	0	0	0	0
+"spermine"	0	0	0	0	0	0	0	0	0
+"sphinganine"	0	0	0	0	0	0	0	0	0
+"sphingomyelin (d18:1/14:0, d16:1/16:0)*"	0	0	0	0	0	0	0	0	0
+"sphingomyelin (d18:1/15:0, d16:1/17:0)*"	0	0	0	0	0	0	0	0	0
+"sphingomyelin (d18:1/17:0, d17:1/18:0, d19:1/16:0)"	0	0	0	0	0	0	0	0	0
+"sphingomyelin (d18:1/18:1, d18:2/18:0)"	0	0	0	0	0	0	0	0	0
+"sphingomyelin (d18:1/20:0, d16:1/22:0)*"	0	0	0	0	0	0	0	0	0
+"sphingomyelin (d18:1/20:1, d18:2/20:0)*"	1	0	0	0	0	1	0	0	0
+"sphingomyelin (d18:1/22:1, d18:2/22:0, d16:1/24:1)*"	1	1	0	0	0	0	0	0	0
+"sphingomyelin (d18:1/24:1, d18:2/24:0)*"	0	0	0	0	0	0	0	0	0
+"sphingomyelin (d18:2/16:0, d18:1/16:1)*"	0	0	0	0	0	0	0	0	0
+"sphingomyelin (d18:2/24:1, d18:1/24:2)*"	0	0	0	0	0	0	0	0	0
+"sphingosine"	0	0	0	0	0	0	0	0	0
+"stachydrine"	5	0	0	0	2	0	1	1	1
+"stearoyl ethanolamide"	0	0	0	0	0	0	0	0	0
+"stearoyl sphingomyelin (d18:1/18:0)"	0	0	0	0	0	0	0	0	0
+"stearoylcarnitine"	0	0	0	0	0	0	0	0	0
+"succinate"	0	0	0	0	0	0	0	0	0
+"succinylcarnitine"	0	0	0	0	0	0	0	0	0
+"sulfate*"	1	1	0	0	0	0	0	0	0
+"taurine"	0	0	0	0	0	0	0	0	0
+"thiamin (Vitamin B1)"	0	0	0	0	0	0	0	0	0
+"thiamin diphosphate"	0	0	0	0	0	0	0	0	0
+"thioproline"	0	0	0	0	0	0	0	0	0
+"threonine"	0	0	0	0	0	0	0	0	0
+"tiglylcarnitine"	1	0	0	0	1	0	0	0	0
+"trans-4-hydroxyproline"	0	0	0	0	0	0	0	0	0
+"tricosanoyl sphingomyelin (d18:1/23:0)*"	26	5	5	4	2	3	4	2	1
+"tricosenoate (23:1)"	17	3	3	3	5	3	0	0	0
+"trigonelline (N'-methylnicotinate)"	0	0	0	0	0	0	0	0	0
+"trizma acetate"	2	0	0	0	0	0	1	0	1
+"tryptophan"	0	0	0	0	0	0	0	0	0
+"tyrosine"	0	0	0	0	0	0	0	0	0
+"UDP-galactose"	9	1	2	1	2	2	0	1	0
+"UDP-glucose"	3	0	2	0	1	0	0	0	0
+"UDP-glucuronate"	0	0	0	0	0	0	0	0	0
+"UDP-N-acetylglucosamine"	0	0	0	0	0	0	0	0	0
+"urate"	0	0	0	0	0	0	0	0	0
+"uridine"	0	0	0	0	0	0	0	0	0
+"uridine 5'-diphosphate (UDP)"	0	0	0	0	0	0	0	0	0
+"uridine 5'-monophosphate (UMP)"	9	1	3	1	2	1	0	1	0
+"uridine 5'-triphosphate (UTP)"	0	0	0	0	0	0	0	0	0
+"valine"	0	0	0	0	0	0	0	0	0
+"xanthine"	7	1	1	4	0	0	1	0	0
+"xanthosine"	17	1	0	3	5	2	2	4	0
+"X - 11381"	0	0	0	0	0	0	0	0	0
+"X - 12015"	0	0	0	0	0	0	0	0	0
+"X - 12688"	1	0	0	0	0	0	1	0	0
+"X - 12748"	0	0	0	0	0	0	0	0	0
+"X - 14056"	0	0	0	0	0	0	0	0	0
+"X - 14568"	0	0	0	0	0	0	0	0	0
+"X - 15220"	0	0	0	0	0	0	0	0	0
+"X - 15245"	17	4	4	1	4	4	0	0	0
+"X - 17677"	36	6	6	6	6	6	5	1	0
+"X - 18779"	0	0	0	0	0	0	0	0	0
+"X - 21343"	4	0	1	0	0	0	0	1	2
+"X - 21365"	0	0	0	0	0	0	0	0	0
+"X - 21891"	3	1	0	1	0	0	1	0	0
+"X - 22768"	0	0	0	0	0	0	0	0	0
+"X - 22770"	1	0	1	0	0	0	0	0	0
+"X - 22776"	0	0	0	0	0	0	0	0	0
+"X - 24020"	0	0	0	0	0	0	0	0	0
+"X - 24054"	1	0	0	1	0	0	0	0	0
+"X - 24061"	0	0	0	0	0	0	0	0	0
+"X - 24097"	0	0	0	0	0	0	0	0	0
+"X - 24241"	5	1	1	0	1	1	0	1	0
+"X - 24435"	3	1	1	0	1	0	0	0	0
+"X - 24803"	0	0	0	0	0	0	0	0	0
+"X - 24804"	0	0	0	0	0	0	0	0	0
+"X - 24806"	0	0	0	0	0	0	0	0	0
+"X - 24831"	1	0	1	0	0	0	0	0	0

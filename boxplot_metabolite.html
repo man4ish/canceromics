@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  <style type="text/css">  
+  </style>
+  <title></title>
+<script type='text/javascript'>//<![CDATA[
+
+
+
+$(function() {
+  var options = {
+        chart: {
+            renderTo: 'container2',
+            type: 'boxplot',
+            zoomType:'x',
+            borderWidth: 1,
+            plotBorderWidth: 1,
+            marginLeft: 100,
+            marginRight: 100
+        },
+
+        title: {
+            text: 'Box Plot by Metabolite'
+        },
+
+        legend: {
+            enabled: false
+        },
+
+        xAxis: {
+            gridLineWidth: 0,
+            gridLineColor: '#ffffff',
+            categories: [],
+            title: {
+                text: 'Metabolites'
+            }
+        },
+
+       yAxis: [{
+               gridLineWidth: 0,
+            gridLineColor: '#ffffff',
+    	height: '45%',
+        plotLines: [{
+                    value: 0,
+                    color: 'green',
+                    dashStyle: 'solid',
+                    width: 2,
+                    label: {
+                        text: '----------------------------------------------------------------Before Normalization-----------------------------------------------------'
+                    }
+                }],
+    
+    },{offset:0,
+    top: '55%',
+    height: '45%',
+    gridLineWidth: 0,
+            gridLineColor: '#ffffff',
+    plotLines: [{
+                    value: 0,
+                    color: 'red',
+                    dashStyle: 'solid',
+                    width: 2,
+                    label: {
+                        text: '-----------------------------------------------------------------After Normalization-----------------------------------------------------'
+                    }
+                }]
+    }],
+
+        series: [{}]
+
+    };
+
+  
+  jsonfile='web/tmpdata/'+'<?php echo $_SESSION["tmpid"]; ?>'+'/tmpdata_col.json';
+   expimentnames='web/tmpdata/'+'<?php echo $_SESSION["tmpid"]; ?>'+'/metabolite_name.txt';
+  //alert(jsonfile);
+  
+  var x_title=""; 
+ $.getJSON(expimentnames, function(data) {
+   x_title=data;
+  });
+  
+  $.getJSON(jsonfile, function(data) {
+    options.xAxis.categories=x_title;
+    options.series = data;
+    var chart = new Highcharts.Chart(options);
+  });
+
+});
+//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<div id="container2" style="height: 800px; width: 800px;margin: auto;"></div>  
+</body>
+</html>

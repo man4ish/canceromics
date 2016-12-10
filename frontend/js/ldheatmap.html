@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo</title>
+  
+  
+  <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+  <style type='text/css'>
+    
+  </style>
+  
+
+
+
+<script type='text/javascript'>//<![CDATA[
+
+$(function () {
+
+    $('#container').highcharts({
+        chart: {
+          type: 'polygon',
+           zoomType:'x',
+        },
+        title: {
+            text: 'Qatar vs American population'
+        },
+        subtitle: {
+            text: ''
+        },
+        xAxis: {
+          title: false,
+            gridLineWidth:0,
+            lineWidth:0,
+            labels:{
+            	enabled: false
+            }
+        },
+        yAxis: {
+        title: false,
+            gridLineWidth:0,
+            lineWidth:0,
+            labels:{
+            	enabled: false
+            }
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+        plotOptions: {
+            polygon: {
+                borderColor: 'grey',
+                borderWidth: 2,
+                lineWidth: 2
+            }
+        },
+          tooltip: {
+            shared: true,
+            useHTML: true,
+            headerFormat: '<small>Position:{point.key}</small><table>',
+            pointFormat: '<tr><td style="color: {series.color}">{series.name}: </td>' +
+                '<td style="text-align: right"><b>{point.y} </b></td></tr>',
+            footerFormat: '</table>',
+            valueDecimals: 2
+        },
+        series: [
+{yaxis:0, showInLegend: false,  data: [[3000, 2000], [5500, 7000], [5000, 8000], [2500, 3000]] }, 
+{yaxis:0, showInLegend: false, data: [[5500, 7000], [6000, 8000], [5500, 9000], [5000, 8000]] }, 
+{ yaxis:0,showInLegend: false, data: [[6000, 8000], [8500, 13000], [8000, 14000], [5500, 9000]] }, 
+{yaxis:0,showInLegend: false,  data: [[8500, 13000], [9000, 14000], [8500, 15000], [8000, 14000]] }, 
+{yaxis:0, showInLegend: false, data: [[9000, 14000], [11000, 18000], [10500, 19000], [8500, 15000]] }, 
+{yaxis:0, showInLegend: false, data: [[11000, 18000], [12500, 21000], [12000, 22000], [10500, 19000]] }, 
+{yaxis:0,showInLegend: false,  data: [[12500, 21000], [16000, 28000], [15500, 29000], [12000, 22000]] }, 
+{yaxis:0,showInLegend: false,  data: [[16000, 28000], [19500, 35000], [19000, 36000], [15500, 29000]] }, 
+{ yaxis:0,showInLegend: false, data: [[6500, 5000], [7000, 6000], [6000, 8000], [5500, 7000]] }, 
+{yaxis:0,showInLegend: false,  showInLegend: false, data: [[7000, 6000], [9500, 11000], [8500, 13000], [6000, 8000]] }, 
+{yaxis:0, showInLegend: false, showInLegend: false, data: [[9500, 11000], [10000, 12000], [9000, 14000], [8500, 13000]] }, 
+{ yaxis:0,showInLegend: false, data: [[10000, 12000], [12000, 16000], [11000, 18000], [9000, 14000]] }, 
+{ yaxis:0,showInLegend: false, data: [[12000, 16000], [13500, 19000], [12500, 21000], [11000, 18000]] }, 
+{ yaxis:0,showInLegend: false, data: [[13500, 19000], [17000, 26000], [16000, 28000], [12500, 21000]] }, 
+{yaxis:0, showInLegend: false, data: [[17000, 26000], [20500, 33000], [19500, 35000], [16000, 28000]] }, 
+{yaxis:0, showInLegend: false, data: [[9500, 1000], [12000, 6000], [9500, 11000], [7000, 6000]] }, 
+{ yaxis:0,showInLegend: false, data: [[12000, 6000], [12500, 7000], [10000, 12000], [9500, 11000]] }, 
+{ yaxis:0,showInLegend: false, data: [[12500, 7000], [14500, 11000], [12000, 16000], [10000, 12000]] }, 
+{ yaxis:0,showInLegend: false, data: [[14500, 11000], [16000, 14000], [13500, 19000], [12000, 16000]] }, 
+{ yaxis:0,showInLegend: false, data: [[16000, 14000], [19500, 21000], [17000, 26000], [13500, 19000]] }, 
+{yaxis:0, showInLegend: false, data: [[19500, 21000], [23000, 28000], [20500, 33000], [17000, 26000]] }, 
+{ yaxis:0,showInLegend: false, data: [[12500, 5000], [13000, 6000], [12500, 7000], [12000, 6000]] }, 
+{ yaxis:0,showInLegend: false, data: [[13000, 6000], [15000, 10000], [14500, 11000], [12500, 7000]] }, 
+{yaxis:0, showInLegend: false, data: [[15000, 10000], [16500, 13000], [16000, 14000], [14500, 11000]] }, 
+{ yaxis:0,showInLegend: false, data: [[16500, 13000], [20000, 20000], [19500, 21000], [16000, 14000]] }, 
+{ yaxis:0,showInLegend: false, data: [[20000, 20000], [23500, 27000], [23000, 28000], [19500, 21000]] }, 
+{ yaxis:0,showInLegend: false, data: [[15500, 1000], [17500, 5000], [15000, 10000], [13000, 6000]] }, 
+{ yaxis:0,showInLegend: false, data: [[17500, 5000], [19000, 8000], [16500, 13000], [15000, 10000]] }, 
+{yaxis:0, showInLegend: false, data: [[19000, 8000], [22500, 15000], [20000, 20000], [16500, 13000]] }, 
+{ yaxis:0,showInLegend: false, data: [[22500, 15000], [26000, 22000], [23500, 27000], [20000, 20000]] }, 
+{yaxis:0,showInLegend: false,  data: [[18000, 4000], [19500, 7000], [19000, 8000], [17500, 5000]] }, 
+{ yaxis:0,showInLegend: false, data: [[19500, 7000], [23000, 14000], [22500, 15000], [19000, 8000]] }, 
+{yaxis:0,showInLegend: false,  data: [[23000, 14000], [26500, 21000], [26000, 22000], [22500, 15000]] }, 
+{yaxis:0, showInLegend: false, data: [[21500, 3000], [25000, 10000], [23000, 14000], [19500, 7000]] }, 
+{ yaxis:0,showInLegend: false, data: [[25000, 10000], [28500, 17000], [26500, 21000], [23000, 14000]] }, 
+{ yaxis:0,showInLegend: false, data: [[26500, 7000], [30000, 14000], [28500, 17000], [25000, 10000]] },               
+{yaxis:0, showInLegend: false,  data: [[3000, -2000], [5500, -7000], [5000, -8000], [2500, -3000]] }, 
+{yaxis:0, showInLegend: false, data: [[5500, -7000], [6000, -8000], [5500, -9000], [5000, -8000]] }, 
+{ yaxis:0,showInLegend: false, data: [[6000, -8000], [8500, -13000], [8000, -14000], [5500, -9000]] }, 
+{yaxis:0,showInLegend: false,  data: [[8500, -13000], [9000, -4000], [8500, -15000], [8000, -14000]] }, 
+{yaxis:0, showInLegend: false, data: [[9000, -14000], [11000, -18000], [10500, -19000], [8500, -15000]] }, 
+{yaxis:0, showInLegend: false, data: [[11000, -18000], [12500, -21000], [12000, -22000], [10500, -19000]] }, 
+{yaxis:0,showInLegend: false,  data: [[12500, -21000], [16000, -28000], [15500, -29000], [12000, -22000]] }, 
+{yaxis:0,showInLegend: false,  data: [[16000, -28000], [19500, -35000], [19000, -36000], [15500, -29000]] }, 
+{ yaxis:0,showInLegend: false, data: [[6500, -5000], [7000, -6000], [6000, -8000], [5500, -7000]] }, 
+{yaxis:0,showInLegend: false,  showInLegend: false, data: [[7000, -6000], [9500, -11000], [8500, -13000], [6000, -8000]] }, 
+{yaxis:0, showInLegend: false, showInLegend: false, data: [[9500, -11000], [10000, -12000], [9000, -14000], [8500, -13000]] }, 
+{ yaxis:0,showInLegend: false, data: [[10000, -12000], [12000, -16000], [11000, -18000], [9000, -14000]] }, 
+{ yaxis:0,showInLegend: false, data: [[12000, -16000], [13500, -19000], [12500, -21000], [11000, -18000]] }, 
+{ yaxis:0,showInLegend: false, data: [[13500, -19000], [17000, -26000], [16000, -28000], [12500, -21000]] }, 
+{yaxis:0, showInLegend: false, data: [[17000, -26000], [20500, -33000], [19500, -35000], [16000, -28000]] }, 
+{yaxis:0, showInLegend: false, data: [[9500, -1000], [12000, -6000], [9500, -11000], [7000, -6000]] }, 
+{ yaxis:0,showInLegend: false, data: [[12000, -6000], [12500, -7000], [10000, -12000], [9500, -11000]] }, 
+{ yaxis:0,showInLegend: false, data: [[12500, -7000], [14500, -11000], [12000, -16000], [10000, -12000]] }, 
+{ yaxis:0,showInLegend: false, data: [[14500, -11000], [16000, -14000], [13500, -19000], [12000, -16000]] }, 
+{ yaxis:0,showInLegend: false, data: [[16000, -14000], [19500, -21000], [17000, -26000], [13500, -19000]] }, 
+{yaxis:0, showInLegend: false, data: [[19500, -21000], [23000, -28000], [20500, -33000], [17000, -26000]] }, 
+{ yaxis:0,showInLegend: false, data: [[12500, -5000], [13000, -6000], [12500, -7000], [12000, -6000]] }, 
+{ yaxis:0,showInLegend: false, data: [[13000, -6000], [15000, -10000], [14500, -11000], [12500, -7000]] }, 
+{yaxis:0, showInLegend: false, data: [[15000, -10000], [16500, -13000], [16000, -14000], [14500, -11000]] }, 
+{ yaxis:0,showInLegend: false, data: [[16500, -13000], [20000, -20000], [19500, -21000], [16000, -14000]] }, 
+{ yaxis:0,showInLegend: false, data: [[20000, -20000], [23500, -27000], [23000, -28000], [19500, -21000]] }, 
+{ yaxis:0,showInLegend: false, data: [[15500, -1000], [17500, -5000], [15000, -10000], [13000, -6000]] }, 
+{ yaxis:0,showInLegend: false, data: [[17500, -5000], [19000, -8000], [16500, -13000], [15000, -10000]] }, 
+{yaxis:0, showInLegend: false, data: [[19000, -8000], [22500, -15000], [20000, -20000], [16500, -13000]] }, 
+{ yaxis:0,showInLegend: false, data: [[22500, -15000], [26000, -22000], [23500, -27000], [20000, -20000]] }, 
+{yaxis:0,showInLegend: false,  data: [[18000, -4000], [19500, -7000], [19000, -8000], [17500, -5000]] }, 
+{ yaxis:0,showInLegend: false, data: [[19500, -7000], [23000, -14000], [22500, -15000], [19000, -8000]] }, 
+{yaxis:0,showInLegend: false,  data: [[23000, -14000], [26500, -21000], [26000, -22000], [22500, -5000]] }, 
+{yaxis:0, showInLegend: false, data: [[21500, -3000], [25000, -10000], [23000, -14000], [19500, -7000]] }, 
+{ yaxis:0,showInLegend: false, data: [[25000, -10000], [28500, -17000], [26500, -21000], [23000, -14000]] }, 
+{ yaxis:0,showInLegend: false, data: [[26500, -7000], [30000, -14000], [28500, -17000], [25000, -10000]] },
+            {
+            name: 'Coordinates',
+            data: [[1000,0], [2000,0], [4000,0], [9000,0], [10000,0], [15000,0], [16000,0], [20000,0], [23000,0], [30000,0], [37000,0]],
+                lineColor:'black',
+                 marker : {
+                    enabled : true,
+                    radius : 3
+                }
+            }
+                ],
+ 
+    });
+});
+
+
+//]]> 
+
+</script>
+
+</head>
+<body>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/highcharts-more.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+
+  
+</body>
+
+</html>
+

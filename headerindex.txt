@@ -1,0 +1,9 @@
+Explanation	7 
+Media	15 
+MediaandCell	15 
+OrigScale (cell extract)	15 
+OrigScale (media)	15 
+ScaledImpData (cell extract)	13 
+ScaledImpData (media)	12 
+Sheet1	15 
+Sheet3	15 

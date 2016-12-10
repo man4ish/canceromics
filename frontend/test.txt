@@ -1,0 +1,5 @@
+
+		<script type="text/javascript" src="frontend/js/association_maps.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts.js"></script>
+		<script type="text/javascript" src="frontend/js/highcharts-3.0.9/highcharts-more.js"></script>
+		

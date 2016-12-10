@@ -43,7 +43,12 @@ createjsonfile<-function(data,filename,normalized,colwise)
      }
      boxparameter<-quantile(val, c(.25, .5, .75),na.rm = TRUE);
      cat(paste0("[",min,",",boxparameter[1],",",boxparameter[2],",",boxparameter[3],",",max,"]"),file=flname,append = TRUE,sep="\n");
-     cat("],\"tooltip\": {\"headerFormat\": \"<em>Experiment Name {point.key}</em><br/>\"}}",file=flname,append = TRUE,sep="\n");
+     if(colwise==0)
+     {
+       cat("],\"tooltip\": {\"headerFormat\": \"<em>Metabolite Name {point.key}</em><br/>\"}}",file=flname,append = TRUE,sep="\n");
+     } else {
+        cat("],\"tooltip\": {\"headerFormat\": \"<em>Experiment Name {point.key}</em><br/>\"}}",file=flname,append = TRUE,sep="\n");
+     }
      if(normalized){cat("]",file=flname,append = TRUE,sep="\n"); }
      #stop("done");
 }
@@ -62,22 +67,22 @@ data<-read.table(infile,header=TRUE, check.names = TRUE);
 
 rownames<-rownames(data)
 
-cat("{\"categories\": [",file=paste0(tmpdir,"metabolite_name.txt"))
+cat("[",file=paste0(tmpdir,"metabolite_name.txt"))
 for (i in 1:(length(rownames)-1))
 {
     cat(paste0("\"",rownames[i],"\","),file=paste0(tmpdir,"metabolite_name.txt"),append=TRUE)
 }
-cat(paste0("\"",rownames[length(rownames)],"\"]}"),file=paste0(tmpdir,"metabolite_name.txt"),append=TRUE)
+cat(paste0("\"",rownames[length(rownames)],"\"]"),file=paste0(tmpdir,"metabolite_name.txt"),append=TRUE)
 #write.table(rownames(data),file=paste0(tmpdir,"metabolite_name.txt"),row.names = FALSE);
 #write.table(colnames(data),file=paste0(tmpdir,"experiment_name.txt"),row.names = FALSE);
 
 colnames<-colnames(data)
-cat("{\"categories\": [",file=paste0(tmpdir,"experiment_name.txt"))
+cat("[",file=paste0(tmpdir,"experiment_name.txt"))
 for (i in 1:(length(colnames)-1))
 {
     cat(paste0("\"",colnames[i],"\","),file=paste0(tmpdir,"experiment_name.txt"),append=TRUE)
 }
-cat(paste0("\"",colnames[length(colnames)],"\"]}"),file=paste0(tmpdir,"experiment_name.txt"),append=TRUE)
+cat(paste0("\"",colnames[length(colnames)],"\"]"),file=paste0(tmpdir,"experiment_name.txt"),append=TRUE)
 
 
 #stop("Err");

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo</title>
+ 
+ 
+  <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
+ 
+ 
+ 
+ 
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+ 
+  <style type='text/css'>
+   
+  </style>
+ 
+
+
+
+<script type='text/javascript'>
+$(function () {
+
+ var options = {
+        chart :{
+                  type: 'polygon',
+                  renderTo: 'container',
+                  zoomType:'x'
+            
+        },
+        title: {
+            text: ''
+        },
+        yAxis: {
+            title: false,
+            gridLineWidth:0,
+            lineWidth:0,
+            labels:{
+                enabled: false
+            }
+        },
+        
+        xAxis: {
+            title: false,
+            gridLineWidth:0,
+            lineWidth:0,
+            labels:{
+                enabled: false
+            }
+        },
+         plotOptions: {
+            series: {
+                lineWidth: 1,
+                lineColor:'black'
+            }
+        },  
+        series: []
+    };
+
+    $.getJSON('frontend/js/tmp/data10.json', function(data) {
+        options.series=data;
+        var chart = new Highcharts.Chart(options);
+    })
+    $.getJSON('tmp/title.json', function(title) {
+        options.title.text=title;
+        var chart = new Highcharts.Chart(options);
+    })
+   
+});
+
+function forward() {
+   $('#plots-tabs-heatmap').load("frontend/js/map20.html");
+}
+
+function backward()
+{
+   $('#plots-tabs-heatmap').load("frontend/js/map40.html");
+}
+
+</script>
+
+</head>
+<body>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/highcharts-more.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+<br>
+<br>
+<table>
+<tr><td>
+<img name="jsbutton" src="snipa/zoom-in.svg" width="110" height="28" border="0" alt="javascript button" onclick="forward();">
+</td>
+<td>
+<img name="jsbutton" src="snipa/zoom-out.svg" width="110" height="28" border="0" alt="javascript button" onclick="backward();"> 
+</td>
+</tr>
+</table>
+</body>
+
